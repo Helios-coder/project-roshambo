@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>RO-SHAM-BO</title>
+		<link rel="stylesheet" href="rock_paper_scissors.css" text="style/css">
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+		<meta charset="utf-8">
+	</head>
+
+	<body>
+
+		<div class="heading">
+			<h1>
+				<img src="rock.jpeg" type="image/jpeg" alt="rock">ROCK <img src="paper.jpeg" type="image/jpeg" alt="paper">PAPER <img src="scissors.jpeg" type="image/jpeg" alt="scissor">SCISSORS
+			</h1>
+		</div>
+
+		<main id="main-content">
+			
+			<div class="players">
+				<p id="player-1"> Player </p>
+				<p id="player-2"> Computer <p>
+			</div>
+
+			<div class="boxes">
+				
+				<p  id="player-score"> 0 </p>
+				
+				<div class="left-box">
+					<img id="player-img">
+				</div>
+				
+				<div class="right-box">
+					<img id="computer-img">
+				</div>
+				
+				<p id="computer-score"> 0 </p>
+			</div>
+
+			<div class="choices">
+
+					<button type="button" id="rock" id="game-button"><img class="choice-img" src="rock.jpeg" alt="rock" type="image/png"></button>
+	
+					<button type="button" id="paper" id="game-button"><img class="choice-img" src="paper.jpeg" alt="paper" type="image/png"></button>
+				
+					<button type="button" id="scissors" id="game-button"><img class="choice-img" src="scissors.jpeg" alt="scissors" type="image/png"></button>
+			</div>
+			
+			<div class="result">
+				<p id="winner">RESULTS</p>
+			</div>
+			
+			<div class="rst">
+				<button type="button" id="reset">RESET</button>
+			</div>
+		</main>
+
+		<script src="rock_paper_scissors.js"></script>
+
+	</body>
+</html>
